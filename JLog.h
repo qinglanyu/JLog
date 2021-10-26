@@ -21,7 +21,7 @@ quickly.
 #define WIDEN(x) WIDEN2(x)
 #define WC_FILE_ WIDEN(__FILE__)
 
-#define JLOGTEST()	CJLog::GetInstance()->WriteLog(_T("CJLog Test(ÈÕÖ¾²âÊÔ) start... @%d in %s"), __LINE__, WC_FILE_);
+#define JLOGTEST()	CJLog::GetInstance()->WriteLog(_T("CJLog Test(????) start... @%d in %s"), __LINE__, WC_FILE_);
 #define JLOG(x)		CJLog::GetInstance()->WriteLog(_T("%s @%d in %s"), x, __LINE__, WC_FILE_);
 
 #define _TIMESTAMP_		( CTime::GetCurrentTime().Format(_T("[%Y-%m-%d %H:%M:%S] ")) )
